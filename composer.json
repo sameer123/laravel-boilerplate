@@ -4,9 +4,22 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "extra": {
+      "merge-plugin": {
+        "include": [
+          "app/Modules/*/composer.json"
+        ]
+      }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/coding-sunshine/modules"
+    }],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "caffeinated/modules": "~2.0",
+        "wikimedia/composer-merge-plugin": "^1.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

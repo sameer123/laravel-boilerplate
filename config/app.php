@@ -144,6 +144,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /*
+         * Most basic additional Service Provider...
+         */
+        Caffeinated\Modules\ModulesServiceProvider::class,
+
+
     ],
 
     /*
@@ -192,6 +199,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
 
+        /*
+        * Most basic additional Facades...
+        */
+
+        'Module' => Caffeinated\Modules\Facades\Module::class,
     ],
 
 ];
