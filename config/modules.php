@@ -55,4 +55,15 @@ return [
 	*/
 
 	'custom_driver' => 'App\Repositories\Modules\CustomRepository',
+
+	/*
+	|--------------------------------------------------------------------------
+	| .gitignore directive
+	|--------------------------------------------------------------------------
+	|
+	| If you want to ignore submodules of Modules directory
+	|
+	*/
+
+	'git_ignore_modules' => false,
 ];
