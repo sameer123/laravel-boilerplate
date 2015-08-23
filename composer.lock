@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/coding-sunshine/modules.git",
-                "reference": "b7ff27750bfb4300dd95d37b883bd2ece23f1e58"
+                "reference": "35fa14ea0a4403cf823aebedc2d389516d1117a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coding-sunshine/modules/zipball/b7ff27750bfb4300dd95d37b883bd2ece23f1e58",
-                "reference": "b7ff27750bfb4300dd95d37b883bd2ece23f1e58",
+                "url": "https://api.github.com/repos/coding-sunshine/modules/zipball/35fa14ea0a4403cf823aebedc2d389516d1117a8",
+                "reference": "35fa14ea0a4403cf823aebedc2d389516d1117a8",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
             "support": {
                 "source": "https://github.com/coding-sunshine/modules/tree/master"
             },
-            "time": "2015-08-23 19:08:16"
+            "time": "2015-08-23 19:54:16"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -3136,18 +3136,65 @@
             "time": "2015-07-03 03:24:58"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "laracasts/generators",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/Laravel-5-Generators-Extended.git",
+                "reference": "eb58b86f49d69eff4db4cc6f2ec94480a57c4358"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/Laravel-5-Generators-Extended/zipball/eb58b86f49d69eff4db4cc6f2ec94480a57c4358",
+                "reference": "eb58b86f49d69eff4db4cc6f2ec94480a57c4358",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laracasts\\Generators\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Extend Laravel 5's generators.",
+            "keywords": [
+                "generators",
+                "laravel"
+            ],
+            "time": "2015-08-19 14:29:06"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "caffeinated/modules": 20,
         "php": 0,
         "laravel/framework": 0,
+        "wikimedia/composer-merge-plugin": 0,
         "barryvdh/laravel-debugbar": 20,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,
-        "phpspec/phpspec": 0
+        "phpspec/phpspec": 0,
+        "laracasts/generators": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
