@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "558938b09645f86765413d00eeb87466aa0dee31"
+                "reference": "cf9d01a72ccb213faa6df77d34323e6d9d861a84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/558938b09645f86765413d00eeb87466aa0dee31",
-                "reference": "558938b09645f86765413d00eeb87466aa0dee31",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/cf9d01a72ccb213faa6df77d34323e6d9d861a84",
+                "reference": "cf9d01a72ccb213faa6df77d34323e6d9d861a84",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "profiler",
                 "webprofiler"
             ],
-            "time": "2015-08-10 19:05:31"
+            "time": "2015-08-28 07:02:06"
         },
         {
             "name": "caffeinated/modules",
@@ -1630,16 +1630,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.5",
+            "version": "4.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc"
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9b7417edaf28059ea63d86be941e6004dbfcc0cc",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2246830f4a1a551c67933e4171bf2126dc29d357",
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357",
                 "shasum": ""
             },
             "require": {
@@ -1698,7 +1698,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-19 09:20:57"
+            "time": "2015-08-24 04:09:38"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3138,6 +3138,109 @@
     ],
     "packages-dev": [
         {
+            "name": "filp/whoops",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "cfe9ce209d2705fece1743f0af45f58fec840458"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/cfe9ce209d2705fece1743f0af45f58fec840458",
+                "reference": "cfe9ce209d2705fece1743f0af45f58fec840458",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Whoops": "src/"
+                },
+                "classmap": [
+                    "src/deprecated"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://github.com/filp/whoops",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "silex-provider",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2015-07-23 15:48:15"
+        },
+        {
+            "name": "itsgoingd/clockwork",
+            "version": "v1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itsgoingd/clockwork.git",
+                "reference": "2eb76580521f413aff6d9fff38c776df55d17dde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/2eb76580521f413aff6d9fff38c776df55d17dde",
+                "reference": "2eb76580521f413aff6d9fff38c776df55d17dde",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "psr/log": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Clockwork": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "itsgoingd",
+                    "email": "itsgoingd@luzer.sk",
+                    "homepage": "http://twitter.com/itsgoingd"
+                }
+            ],
+            "description": "Server-side component of Clockwork, a Chrome extension for PHP development",
+            "homepage": "http://github.com/itsgoingd/clockwork",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "logging",
+                "profiling"
+            ],
+            "time": "2015-07-06 17:58:12"
+        },
+        {
             "name": "laracasts/generators",
             "version": "dev-master",
             "source": {
@@ -3180,6 +3283,114 @@
                 "laravel"
             ],
             "time": "2015-08-19 14:29:06"
+        },
+        {
+            "name": "lord/laroute",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaronlord/laroute.git",
+                "reference": "e9ced9e9c4f69e5da2dae1c2aebc185289748a33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaronlord/laroute/zipball/e9ced9e9c4f69e5da2dae1c2aebc185289748a33",
+                "reference": "e9ced9e9c4f69e5da2dae1c2aebc185289748a33",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "5.0.*|5.1.*",
+                "illuminate/console": "5.0.*|5.1.*",
+                "illuminate/filesystem": "5.0.*|5.1.*",
+                "illuminate/routing": "5.0.*|5.1.*",
+                "illuminate/support": "5.0.*|5.1.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lord\\Laroute\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Lord",
+                    "email": "hello@aaronlord.is"
+                }
+            ],
+            "description": "Access Laravels URL/Route helper functions, from JavaScript.",
+            "keywords": [
+                "javascript",
+                "laravel",
+                "routes",
+                "routing"
+            ],
+            "time": "2015-06-10 10:22:58"
+        },
+        {
+            "name": "stolz/laravel-html-tidy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stolz/laravel-html-tidy.git",
+                "reference": "ba0afaedea6c544c1f7f63168a3061e34c3b6901"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stolz/laravel-html-tidy/zipball/ba0afaedea6c544c1f7f63168a3061e34c3b6901",
+                "reference": "ba0afaedea6c544c1f7f63168a3061e34c3b6901",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tidy": "*",
+                "illuminate/http": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stolz\\HtmlTidy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stolz",
+                    "homepage": "https://github.com/Stolz/laravel-html-tidy",
+                    "role": "developer"
+                }
+            ],
+            "description": "HTML Tidy middleware for Laravel",
+            "keywords": [
+                "HTML5",
+                "HTMLtidy",
+                "Purifier",
+                "beautifier",
+                "filter",
+                "html",
+                "htmlpurifier",
+                "indent",
+                "laravel",
+                "markup",
+                "middleware",
+                "tidy"
+            ],
+            "time": "2015-06-19 09:12:49"
         }
     ],
     "aliases": [],
@@ -3194,7 +3405,11 @@
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,
         "phpspec/phpspec": 0,
-        "laracasts/generators": 20
+        "laracasts/generators": 20,
+        "stolz/laravel-html-tidy": 20,
+        "filp/whoops": 20,
+        "lord/laroute": 20,
+        "itsgoingd/clockwork": 0
     },
     "prefer-stable": false,
     "prefer-lowest": false,

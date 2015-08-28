@@ -27,9 +27,11 @@ class CoreServiceProvider extends ServiceProvider
 		$this->registerConfig();
 		$this->registerServiceProviders();
 		$this->registerFacadeAliases();
+		$this->registerMiddlewares();
 		if ($this->app->environment() == 'local') {
 			$this->registerServiceProviders('localProviders');
 			$this->registerFacadeAliases('localAliases');
+            $this->registerMiddlewares('localMiddlewares');
 		}
 	}
 
@@ -53,10 +55,10 @@ class CoreServiceProvider extends ServiceProvider
     	protected function registerConfig()
     	{
 	        $this->publishes([
-	            __DIR__.'/../Config/config.php' => config_path('core.php'),
+	            __DIR__.'/../Config/config.php' => config_path('module.core.php'),
 	        ]);
 	        $this->mergeConfigFrom(
-	            __DIR__.'/../Config/config.php', 'core'
+	            __DIR__.'/../Config/config.php', 'module.core'
 	        );
     	}
 
@@ -79,7 +81,7 @@ class CoreServiceProvider extends ServiceProvider
 	 */
     	protected function registerServiceProviders($prividerConfig='providers')
     	{
-        	$localProviders = $this->app['config']->get('core.'.$prividerConfig);
+        	$localProviders = $this->app['config']->get('module.core.'.$prividerConfig);
 	        foreach ($localProviders as $provider)
 	        {
 	            $this->app->register($provider);
@@ -87,16 +89,32 @@ class CoreServiceProvider extends ServiceProvider
     	}
 
     	/**
-	 * Load additional Aliases
-	 * Base file Alias load is /config/app.php => aliases
-	 */
+         * Load additional Aliases
+         * Base file Alias load is /config/app.php => aliases
+         */
     	public function registerFacadeAliases($aliasConfig='aliases')
     	{
 	        $loader = AliasLoader::getInstance();
-	        $facadeAliases = $this->app['config']->get('core.'.$aliasConfig);
+	        $facadeAliases = $this->app['config']->get('module.core.'.$aliasConfig);
 	        foreach ($facadeAliases as $alias => $facade)
 	        {
 	            $loader->alias($alias, $facade);
 	        }
     	}
+
+        /**
+         * Load additional Middlewares
+         * Base file Middlewares load is /config.php => middlewares
+         */
+        public function registerMiddlewares($middlewareConfig='middlewares')
+        {
+            $kernel = $this->app->make('Illuminate\Contracts\Http\Kernel');
+            $middlewares = $this->app['config']->get('module.core.'.$middlewareConfig);
+            foreach ($middlewares as $condition => $middleware)
+            {
+                if (env($condition) && true) {
+                    $kernel->pushMiddleware($middleware);
+                }
+            }
+        }
 }
