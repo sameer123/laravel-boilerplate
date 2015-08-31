@@ -20,7 +20,7 @@ return [
         Laracasts\Generators\GeneratorsServiceProvider::class,
         Stolz\HtmlTidy\ServiceProvider::class,
         Lord\Laroute\LarouteServiceProvider::class,
-        Clockwork\Support\Laravel\ClockworkServiceProvider::class
+        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
     ],
     /*
     |--------------------------------------------------------------------------

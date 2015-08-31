@@ -21,7 +21,6 @@
         "laracasts/generators": "dev-master",
         "stolz/laravel-html-tidy": "dev-master",
         "lord/laroute": "dev-master",
-        "itsgoingd/clockwork": "~1.8",
-        "itsgoingd/clockwork-web": "~1.3"
+        "itsgoingd/clockwork": "~1.8"
     }
 }
