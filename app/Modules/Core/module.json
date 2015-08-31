@@ -3,6 +3,6 @@
 	"slug": "core",
 	"version": "1.0",
 	"keywords": [],
-	"description": "This is the description for the Core module.",
+	"description": "This is the Core module which encapsulate all the base functionality, base modules and controller classes also dev specific packages.",
 	"enabled": true
 }
