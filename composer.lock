@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb375726c4e3813304011eb8020f8221",
+    "hash": "c4a6ec62b30d5db0f67bcd7900f2cd24",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "dev-master",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "c20f7cfe0218a640d8e2d454a0c4708cb50c058a"
+                "reference": "753106cd1f9c724d05bb48728bc652231174e279"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/c20f7cfe0218a640d8e2d454a0c4708cb50c058a",
-                "reference": "c20f7cfe0218a640d8e2d454a0c4708cb50c058a",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/753106cd1f9c724d05bb48728bc652231174e279",
+                "reference": "753106cd1f9c724d05bb48728bc652231174e279",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -58,7 +58,7 @@
                 "profiler",
                 "webprofiler"
             ],
-            "time": "2015-08-31 09:24:38"
+            "time": "2015-07-09 14:51:59"
         },
         {
             "name": "caffeinated/modules",
@@ -833,6 +833,69 @@
                 "storage"
             ],
             "time": "2015-07-28 20:41:58"
+        },
+        {
+            "name": "league/fractal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/fractal.git",
+                "reference": "0bff13f2190210c7f5495180c5dd3c736b08c0d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/0bff13f2190210c7f5495180c5dd3c736b08c0d2",
+                "reference": "0bff13f2190210c7f5495180c5dd3c736b08c0d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "illuminate/contracts": "~5.0",
+                "mockery/mockery": "~0.9",
+                "pagerfanta/pagerfanta": "~1.0.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5",
+                "zendframework/zend-paginator": "~2.3"
+            },
+            "suggest": {
+                "illuminate/pagination": "The Illuminate Pagination component.",
+                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
+                "zendframework/zend-paginator": "Zend Framework Paginator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Fractal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Sturgeon",
+                    "email": "me@philsturgeon.uk",
+                    "homepage": "http://philsturgeon.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle the output of complex data structures ready for API output.",
+            "homepage": "http://fractal.thephpleague.com/",
+            "keywords": [
+                "api",
+                "json",
+                "league",
+                "rest"
+            ],
+            "time": "2015-08-31 13:26:52"
         },
         {
             "name": "maximebf/debugbar",
@@ -1755,6 +1818,66 @@
                 "xunit"
             ],
             "time": "2015-08-19 09:14:08"
+        },
+        {
+            "name": "prettus/l5-repository",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prettus/l5-repository.git",
+                "reference": "7e7c4f3857de940f44779ad564e2448bc8096a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prettus/l5-repository/zipball/7e7c4f3857de940f44779ad564e2448bc8096a4e",
+                "reference": "7e7c4f3857de940f44779ad564e2448bc8096a4e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.0|~5.1",
+                "illuminate/console": "~5.0|~5.1",
+                "illuminate/database": "~5.0|~5.1",
+                "illuminate/filesystem": "~5.0|~5.1",
+                "illuminate/http": "~5.0|~5.1",
+                "illuminate/pagination": "~5.0|~5.1",
+                "illuminate/support": "~5.0|~5.1",
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "league/fractal": "Required to use the Fractal Presenter (0.12.*).",
+                "prettus/laravel-validation": "Required to use the Repository Validators (1.1.*)",
+                "robclancy/presenter": "Required to use the Presenter Model (1.3.*)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Prettus\\Repository\\": "src/Prettus/Repository/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anderson Andrade",
+                    "email": "contato@andersonandra.de"
+                }
+            ],
+            "description": "Laravel 5 - Repositories to  the database layer",
+            "keywords": [
+                "cache",
+                "eloquent",
+                "laravel",
+                "model",
+                "repository"
+            ],
+            "time": "2015-08-27 03:25:57"
         },
         {
             "name": "psr/log",
@@ -3336,13 +3459,15 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "caffeinated/modules": 20,
         "php": 0,
         "laravel/framework": 0,
         "wikimedia/composer-merge-plugin": 0,
         "barryvdh/laravel-debugbar": 20,
+        "prettus/l5-repository": 20,
+        "league/fractal": 20,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,
@@ -3352,7 +3477,7 @@
         "lord/laroute": 20,
         "itsgoingd/clockwork": 0
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.5.9"
