@@ -15,13 +15,14 @@ return [
 
     'providers' => [
         Barryvdh\Debugbar\ServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        hisorange\BrowserDetect\Provider\BrowserDetectService::class,
     ],
     'localProviders' => [
         Laracasts\Generators\GeneratorsServiceProvider::class,
         Stolz\HtmlTidy\ServiceProvider::class,
         Lord\Laroute\LarouteServiceProvider::class,
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
-        Prettus\Repository\Providers\RepositoryServiceProvider::class,
     ],
     /*
     |--------------------------------------------------------------------------
@@ -35,6 +36,7 @@ return [
     */
     'aliases' => [
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'BrowserDetect' => hisorange\BrowserDetect\Facade\Parser::class,
     ],
     'localAliases' => [
         'Clockwork' => Clockwork\Support\Laravel\Facade::class,
