@@ -219,7 +219,7 @@ return [
     */
     'generator'=>[
         'basePath'=>app_path(),
-        'rootNamespace'=>'App\\Models\\',
+        'rootNamespace'=>'App\\',
         'paths'=>[
             'models'=>'Models',
             'repositories'=>'Repositories\\Eloquent',
