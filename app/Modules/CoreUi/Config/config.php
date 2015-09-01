@@ -18,6 +18,7 @@ return [
         Styde\Html\HtmlServiceProvider::class,
         Laracasts\Utilities\JavaScript\JavascriptServiceProvider::class,
         Arcanedev\NoCaptcha\Laravel\ServiceProvider::class,
+        Spatie\PaginateRoute\PaginateRouteServiceProvider::class,
     ],
     'localProviders' => [
     ],
@@ -41,6 +42,7 @@ return [
         'Access' => Styde\Html\Facades\Access::class,
         'JavaScript'=>Laracasts\Utilities\JavaScript\JavaScriptFacade::class,
         'Captcha' => Arcanedev\NoCaptcha\Laravel\Facade::class,
+        'PaginateRoute' => Spatie\PaginateRoute\PaginateRouteFacade::class,
     ],
     'localAliases' => [
     ],

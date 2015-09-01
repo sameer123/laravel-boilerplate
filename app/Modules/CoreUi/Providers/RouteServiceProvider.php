@@ -3,6 +3,7 @@ namespace App\Modules\CoreUi\Providers;
 
 use Caffeinated\Modules\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
+use PaginateRoute;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,7 @@ class RouteServiceProvider extends ServiceProvider
 	 */
 	public function boot(Router $router)
 	{
+		PaginateRoute::registerMacros();
 		parent::boot($router);
 
 		//
