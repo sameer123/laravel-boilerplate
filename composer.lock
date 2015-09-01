@@ -2794,6 +2794,112 @@
             "time": "2015-06-21 13:59:46"
         },
         {
+            "name": "sofa/eloquence",
+            "version": "v5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jarektkaczyk/eloquence.git",
+                "reference": "c3fa285559403f2c6983af2abe8885b0691e0646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jarektkaczyk/eloquence/zipball/c3fa285559403f2c6983af2abe8885b0691e0646",
+                "reference": "c3fa285559403f2c6983af2abe8885b0691e0646",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1",
+                "illuminate/database": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.4",
+                "phpunit/phpunit": "4.5.0",
+                "squizlabs/php_codesniffer": "2.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sofa\\Eloquence\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jarek Tkaczyk",
+                    "email": "jarek@softonsofa.com",
+                    "homepage": "http://softonsofa.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
+            "keywords": [
+                "eloquent",
+                "laravel",
+                "mappable",
+                "metable",
+                "mutable",
+                "searchable"
+            ],
+            "time": "2015-07-18 05:13:00"
+        },
+        {
+            "name": "sofa/laravel-global-scope",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jarektkaczyk/laravel-global-scope.git",
+                "reference": "b75870eb5a6bc74916b2ab4aa49623a067b5bb59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jarektkaczyk/laravel-global-scope/zipball/b75870eb5a6bc74916b2ab4aa49623a067b5bb59",
+                "reference": "b75870eb5a6bc74916b2ab4aa49623a067b5bb59",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.4",
+                "phpunit/phpunit": "4.5.0",
+                "squizlabs/php_codesniffer": "2.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sofa\\GlobalScope\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jarek Tkaczyk",
+                    "email": "jarek@softonsofa.com",
+                    "homepage": "http://softonsofa.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy way to define Laravel eloquent global scope.",
+            "keywords": [
+                "database",
+                "eloquent",
+                "global scope",
+                "laravel"
+            ],
+            "time": "2015-07-13 22:31:07"
+        },
+        {
             "name": "spatie/laravel-paginateroute",
             "version": "2.0.0",
             "source": {
@@ -3787,6 +3893,63 @@
             ],
             "description": "Composer plugin to merge multiple composer.json files",
             "time": "2015-07-03 03:24:58"
+        },
+        {
+            "name": "yajra/laravel-datatables-oracle",
+            "version": "v5.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yajra/laravel-datatables.git",
+                "reference": "4418020347969256072aa9cfdde367d64e2a9b16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/4418020347969256072aa9cfdde367d64e2a9b16",
+                "reference": "4418020347969256072aa9cfdde367d64e2a9b16",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.0",
+                "illuminate/filesystem": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/support": "~5.0",
+                "illuminate/view": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "laravelcollective/html": "use 5.1.* for Laravel 5.1 and 5.0.* for Laravel 5.0",
+                "league/fractal": "Can be use to transform DataTables output in a proper API format"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "yajra\\Datatables": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arjay Angeles",
+                    "email": "aqangeles@gmail.com"
+                }
+            ],
+            "description": "jQuery DataTables API for Laravel 4|5",
+            "keywords": [
+                "datatable",
+                "datatables",
+                "datatables jquery plugin",
+                "laravel",
+                "laravel4",
+                "laravel5"
+            ],
+            "time": "2015-06-20 14:06:18"
         }
     ],
     "packages-dev": [
@@ -3999,6 +4162,8 @@
         "prettus/l5-repository": 20,
         "league/fractal": 20,
         "rap2hpoutre/laravel-log-viewer": 0,
+        "sofa/laravel-global-scope": 20,
+        "sofa/eloquence": 20,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,
@@ -4011,7 +4176,8 @@
         "styde/html": 0,
         "laracasts/utilities": 20,
         "arcanedev/no-captcha": 0,
-        "spatie/laravel-paginateroute": 0
+        "spatie/laravel-paginateroute": 0,
+        "yajra/laravel-datatables-oracle": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,

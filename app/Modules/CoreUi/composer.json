@@ -15,7 +15,8 @@
         "styde/html": "~1.0",
         "laracasts/utilities": "dev-master",
         "arcanedev/no-captcha": "~2.1",
-        "spatie/laravel-paginateroute":"2.*"
+        "spatie/laravel-paginateroute":"2.*",
+        "yajra/laravel-datatables-oracle":"5.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
