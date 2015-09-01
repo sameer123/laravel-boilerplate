@@ -15,4 +15,5 @@ Route::group(['prefix' => 'core'], function() {
 	Route::get('/', function() {
 		dd('This is the Core module index page.');
 	});
+    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 });

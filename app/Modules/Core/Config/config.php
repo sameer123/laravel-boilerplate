@@ -16,6 +16,8 @@ return [
     'providers' => [
         Barryvdh\Debugbar\ServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        hisorange\BrowserDetect\Provider\BrowserDetectService::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
     ],
     'localProviders' => [
         Laracasts\Generators\GeneratorsServiceProvider::class,
@@ -35,6 +37,7 @@ return [
     */
     'aliases' => [
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'BrowserDetect' => hisorange\BrowserDetect\Facade\Parser::class,
     ],
     'localAliases' => [
         'Clockwork' => Clockwork\Support\Laravel\Facade::class,

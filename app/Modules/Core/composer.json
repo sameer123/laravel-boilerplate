@@ -13,7 +13,8 @@
         "wikimedia/composer-merge-plugin": "^1.2",
         "barryvdh/laravel-debugbar": "^2.0@dev",
         "prettus/l5-repository": "dev-master",
-        "league/fractal": "dev-master"
+        "league/fractal": "dev-master",
+        "rap2hpoutre/laravel-log-viewer": "0.4.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

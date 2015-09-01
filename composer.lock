@@ -2377,6 +2377,52 @@
             "time": "2015-07-16 15:26:57"
         },
         {
+            "name": "rap2hpoutre/laravel-log-viewer",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rap2hpoutre/laravel-log-viewer.git",
+                "reference": "ef536ba1827733cc4ab52e98b80896f8fd60c648"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rap2hpoutre/laravel-log-viewer/zipball/ef536ba1827733cc4ab52e98b80896f8fd60c648",
+                "reference": "ef536ba1827733cc4ab52e98b80896f8fd60c648",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.2.*|5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/controllers"
+                ],
+                "psr-0": {
+                    "Rap2hpoutre\\LaravelLogViewer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rap2hpoutre",
+                    "email": "raphael@ornikar.com"
+                }
+            ],
+            "description": "A Laravel log reader",
+            "keywords": [
+                "log",
+                "log-reader",
+                "log-viewer",
+                "logging"
+            ],
+            "time": "2015-08-19 22:57:05"
+        },
+        {
             "name": "sebastian/comparator",
             "version": "1.2.0",
             "source": {
@@ -3896,6 +3942,7 @@
         "barryvdh/laravel-debugbar": 20,
         "prettus/l5-repository": 20,
         "league/fractal": 20,
+        "rap2hpoutre/laravel-log-viewer": 0,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,

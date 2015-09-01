@@ -17,6 +17,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         hisorange\BrowserDetect\Provider\BrowserDetectService::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
     ],
     'localProviders' => [
         Laracasts\Generators\GeneratorsServiceProvider::class,
