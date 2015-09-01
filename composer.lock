@@ -764,6 +764,50 @@
             "time": "2015-03-11 20:06:43"
         },
         {
+            "name": "laracasts/utilities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/PHP-Vars-To-Js-Transformer.git",
+                "reference": "a110a0f31417d32cfbadd9ed4fd0bc1c92fc975a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/PHP-Vars-To-Js-Transformer/zipball/a110a0f31417d32cfbadd9ed4fd0bc1c92fc975a",
+                "reference": "a110a0f31417d32cfbadd9ed4fd0bc1c92fc975a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laracasts\\Utilities\\JavaScript\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Transform your PHP to JavaScript",
+            "keywords": [
+                "javascript",
+                "laravel"
+            ],
+            "time": "2015-02-22 20:03:54"
+        },
+        {
             "name": "laravel/framework",
             "version": "v5.1.12",
             "source": {
@@ -892,6 +936,56 @@
             "time": "2015-08-30 23:25:48"
         },
         {
+            "name": "laravelcollective/html",
+            "version": "v5.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "59f124084c9135a6a8d87323e5c5562ab823deb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/59f124084c9135a6a8d87323e5c5562ab823deb4",
+                "reference": "59f124084c9135a6a8d87323e5c5562ab823deb4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.1.*",
+                "illuminate/routing": "5.1.*",
+                "illuminate/session": "5.1.*",
+                "illuminate/support": "5.1.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "time": "2015-07-28 03:18:41"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.11",
             "source": {
@@ -978,12 +1072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/fractal.git",
-                "reference": "08983ac014986fb384ecccaf957cf9cb0901088f"
+                "reference": "135367132de5e266b9f9c1bd21b980e3a59c0727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/08983ac014986fb384ecccaf957cf9cb0901088f",
-                "reference": "08983ac014986fb384ecccaf957cf9cb0901088f",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/135367132de5e266b9f9c1bd21b980e3a59c0727",
+                "reference": "135367132de5e266b9f9c1bd21b980e3a59c0727",
                 "shasum": ""
             },
             "require": {
@@ -1033,7 +1127,7 @@
                 "league",
                 "rest"
             ],
-            "time": "2015-08-31 13:39:38"
+            "time": "2015-08-31 18:28:23"
         },
         {
             "name": "maximebf/debugbar",
@@ -2553,6 +2647,47 @@
             "time": "2015-06-21 13:59:46"
         },
         {
+            "name": "styde/html",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StydeNet/html.git",
+                "reference": "631ed931b8ccf11b2e4f9888857bd701abf4c42b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StydeNet/html/zipball/631ed931b8ccf11b2e4f9888857bd701abf4c42b",
+                "reference": "631ed931b8ccf11b2e4f9888857bd701abf4c42b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "laravelcollective/html": "5.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Styde\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Duilio Palacios",
+                    "email": "admin@styde.net"
+                }
+            ],
+            "description": "Build form fields, menus, alert messages and other view components quickly",
+            "time": "2015-08-29 15:46:09"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.1",
             "source": {
@@ -3660,7 +3795,6 @@
         "barryvdh/laravel-debugbar": 20,
         "prettus/l5-repository": 20,
         "league/fractal": 20,
-        "hisorange/browser-detect": 0,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
         "phpunit/phpunit": 0,
@@ -3668,7 +3802,10 @@
         "laracasts/generators": 20,
         "stolz/laravel-html-tidy": 20,
         "lord/laroute": 20,
-        "itsgoingd/clockwork": 0
+        "itsgoingd/clockwork": 0,
+        "hisorange/browser-detect": 0,
+        "styde/html": 0,
+        "laracasts/utilities": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

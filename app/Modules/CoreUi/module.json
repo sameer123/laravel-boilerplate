@@ -1,0 +1,8 @@
+{
+	"name": "CoreUi",
+	"slug": "core-ui",
+	"version": "1.0",
+	"keywords": [],
+	"description": "This is the description for the CoreUi module.",
+	"enabled": true
+}

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Core',
+    'name' => 'CoreUi',
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -14,14 +14,11 @@ return [
     */
 
     'providers' => [
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        hisorange\BrowserDetect\Provider\BrowserDetectService::class,
+        Styde\Html\HtmlServiceProvider::class,
+        Laracasts\Utilities\JavaScript\JavascriptServiceProvider::class,
     ],
     'localProviders' => [
-        Laracasts\Generators\GeneratorsServiceProvider::class,
-        Stolz\HtmlTidy\ServiceProvider::class,
-        Lord\Laroute\LarouteServiceProvider::class,
-        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
     ],
     /*
     |--------------------------------------------------------------------------
@@ -34,10 +31,16 @@ return [
     |
     */
     'aliases' => [
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'BrowserDetect' => hisorange\BrowserDetect\Facade\Parser::class,
+        'Alert'   => Styde\Html\Facades\Alert::class,
+        'Field'   => Styde\Html\Facades\Field::class,
+        'Menu'    => Styde\Html\Facades\Menu::class,
+        'Form'    => Collective\Html\FormFacade::class,
+        'Html'    => Collective\Html\HtmlFacade::class,
+        'Access' => Styde\Html\Facades\Access::class,
+        'JavaScript'=>Laracasts\Utilities\JavaScript\JavaScriptFacade::class,
     ],
     'localAliases' => [
-        'Clockwork' => Clockwork\Support\Laravel\Facade::class,
     ],
     /*
     |--------------------------------------------------------------------------
@@ -49,10 +52,9 @@ return [
     |
     */
     'middlewares' => [
-
+        \Styde\Html\Alert\Middleware::class,
     ],
     'localMiddlewares' => [
-        'APP_TIDY' => Stolz\HtmlTidy\Middleware::class,
-        'APP_CLOCKWORK' => Clockwork\Support\Laravel\ClockworkMiddleware::class,
+        // 'APP_TIDY' => Stolz\HtmlTidy\Middleware::class,   //example
     ],
 ];
