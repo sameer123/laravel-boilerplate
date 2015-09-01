@@ -24,7 +24,6 @@ return [
         Stolz\HtmlTidy\ServiceProvider::class,
         Lord\Laroute\LarouteServiceProvider::class,
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
-        Sofa\Eloquence\ServiceProvider::class,
     ],
     /*
     |--------------------------------------------------------------------------

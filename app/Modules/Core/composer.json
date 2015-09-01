@@ -15,8 +15,7 @@
         "prettus/l5-repository": "dev-master",
         "league/fractal": "dev-master",
         "rap2hpoutre/laravel-log-viewer": "0.4.*",
-        "sofa/laravel-global-scope": "0.1@dev",
-        "sofa/eloquence": "~5.1@dev"
+        "sofa/laravel-global-scope": "0.1@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
