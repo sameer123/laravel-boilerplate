@@ -13,7 +13,8 @@
         "wikimedia/composer-merge-plugin": "^1.2",
         "hisorange/browser-detect": "2.*",
         "styde/html": "~1.0",
-        "laracasts/utilities": "dev-master"
+        "laracasts/utilities": "dev-master",
+        "arcanedev/no-captcha": "~2.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

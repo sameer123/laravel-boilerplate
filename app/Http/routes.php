@@ -12,10 +12,5 @@
 */
 
 Route::get('/', function () {
-    \JavaScript::put([
-        'foo' => 'bar',
-        'user' => '1',
-        'age' => 29
-    ]);
     return view('welcome');
 });

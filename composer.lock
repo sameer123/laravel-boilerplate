@@ -7,6 +7,58 @@
     "hash": "c4a6ec62b30d5db0f67bcd7900f2cd24",
     "packages": [
         {
+            "name": "arcanedev/no-captcha",
+            "version": "2.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ARCANEDEV/noCAPTCHA.git",
+                "reference": "8363955e93945e0a44bf4a8c05a7b50255c4da22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ARCANEDEV/noCAPTCHA/zipball/8363955e93945e0a44bf4a8c05a7b50255c4da22",
+                "reference": "8363955e93945e0a44bf4a8c05a7b50255c4da22",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.5.9",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "illuminate/html": "~5.0",
+                "mockery/mockery": "~0.9",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpcov": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arcanedev\\NoCaptcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ARCANEDEV",
+                    "email": "arcanedev.maroc@gmail.com"
+                }
+            ],
+            "description": "No CAPTCHA (new Google reCAPTCHA) with Laravel support",
+            "keywords": [
+                "captcha",
+                "google",
+                "laravel",
+                "no-captcha",
+                "recaptcha"
+            ],
+            "time": "2015-08-10 17:27:28"
+        },
+        {
             "name": "barryvdh/laravel-debugbar",
             "version": "v2.0.5",
             "source": {
@@ -2166,6 +2218,55 @@
             "time": "2015-08-27 03:25:57"
         },
         {
+            "name": "psr/http-message",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2015-05-04 20:22:00"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -2648,16 +2749,16 @@
         },
         {
             "name": "styde/html",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StydeNet/html.git",
-                "reference": "631ed931b8ccf11b2e4f9888857bd701abf4c42b"
+                "reference": "2d521cfe5e81ff10f76e7221e9e1f45aa81731b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StydeNet/html/zipball/631ed931b8ccf11b2e4f9888857bd701abf4c42b",
-                "reference": "631ed931b8ccf11b2e4f9888857bd701abf4c42b",
+                "url": "https://api.github.com/repos/StydeNet/html/zipball/2d521cfe5e81ff10f76e7221e9e1f45aa81731b3",
+                "reference": "2d521cfe5e81ff10f76e7221e9e1f45aa81731b3",
                 "shasum": ""
             },
             "require": {
@@ -2685,7 +2786,7 @@
                 }
             ],
             "description": "Build form fields, menus, alert messages and other view components quickly",
-            "time": "2015-08-29 15:46:09"
+            "time": "2015-08-31 21:43:59"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3589,16 +3690,16 @@
     "packages-dev": [
         {
             "name": "itsgoingd/clockwork",
-            "version": "v1.8.1",
+            "version": "v1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itsgoingd/clockwork.git",
-                "reference": "2eb76580521f413aff6d9fff38c776df55d17dde"
+                "reference": "2e3b13d49942d3338d69e77f7d214ee49e0c8e9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/2eb76580521f413aff6d9fff38c776df55d17dde",
-                "reference": "2eb76580521f413aff6d9fff38c776df55d17dde",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/2e3b13d49942d3338d69e77f7d214ee49e0c8e9e",
+                "reference": "2e3b13d49942d3338d69e77f7d214ee49e0c8e9e",
                 "shasum": ""
             },
             "require": {
@@ -3630,7 +3731,7 @@
                 "logging",
                 "profiling"
             ],
-            "time": "2015-07-06 17:58:12"
+            "time": "2015-09-01 00:55:38"
         },
         {
             "name": "laracasts/generators",
@@ -3805,7 +3906,8 @@
         "itsgoingd/clockwork": 0,
         "hisorange/browser-detect": 0,
         "styde/html": 0,
-        "laracasts/utilities": 20
+        "laracasts/utilities": 20,
+        "arcanedev/no-captcha": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,

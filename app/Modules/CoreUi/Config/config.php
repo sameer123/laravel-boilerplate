@@ -17,6 +17,7 @@ return [
         hisorange\BrowserDetect\Provider\BrowserDetectService::class,
         Styde\Html\HtmlServiceProvider::class,
         Laracasts\Utilities\JavaScript\JavascriptServiceProvider::class,
+        Arcanedev\NoCaptcha\Laravel\ServiceProvider::class,
     ],
     'localProviders' => [
     ],
@@ -39,6 +40,7 @@ return [
         'Html'    => Collective\Html\HtmlFacade::class,
         'Access' => Styde\Html\Facades\Access::class,
         'JavaScript'=>Laracasts\Utilities\JavaScript\JavaScriptFacade::class,
+        'Captcha' => Arcanedev\NoCaptcha\Laravel\Facade::class,
     ],
     'localAliases' => [
     ],
