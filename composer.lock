@@ -531,177 +531,6 @@
             "time": "2014-02-04 09:18:51"
         },
         {
-            "name": "guzzlehttp/guzzle",
-            "version": "6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "a8dfeff00eb84616a17fea7a4d72af35e750410f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a8dfeff00eb84616a17fea7a4d72af35e750410f",
-                "reference": "a8dfeff00eb84616a17fea7a4d72af35e750410f",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "~1.1",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "6.0-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "rest",
-                "web service"
-            ],
-            "time": "2015-07-04 20:09:24"
-        },
-        {
-            "name": "guzzlehttp/promises",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/97fe7210def29451ec74923b27e552238defd75a",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
-                "files": [
-                    "src/functions_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle promises library",
-            "keywords": [
-                "promise"
-            ],
-            "time": "2015-08-15 19:37:21"
-        },
-        {
-            "name": "guzzlehttp/psr7",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
-                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
-                "files": [
-                    "src/functions_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "PSR-7 message implementation",
-            "keywords": [
-                "http",
-                "message",
-                "stream",
-                "uri"
-            ],
-            "time": "2015-08-15 19:32:36"
-        },
-        {
             "name": "hamcrest/hamcrest-php",
             "version": "v1.2.2",
             "source": {
@@ -985,54 +814,6 @@
                 "tokenizer"
             ],
             "time": "2015-03-11 20:06:43"
-        },
-        {
-            "name": "jeroen-g/laravel-packager",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Jeroen-G/laravel-packager.git",
-                "reference": "22167696e0b6d499095a76c3f39de03a693968e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Jeroen-G/laravel-packager/zipball/22167696e0b6d499095a76c3f39de03a693968e8",
-                "reference": "22167696e0b6d499095a76c3f39de03a693968e8",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "~6.0",
-                "illuminate/console": "~5",
-                "illuminate/filesystem": "~5",
-                "illuminate/support": "~5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JeroenG\\Packager\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "EUPL-1.1"
-            ],
-            "authors": [
-                {
-                    "name": "JeroenG",
-                    "email": "jeroengjeroeng@gmail.com",
-                    "homepage": "https://github.com/Jeroen-G"
-                }
-            ],
-            "description": "A cli tool for creating Laravel packages.",
-            "homepage": "https://github.com/Jeroen-G/laravel-packager",
-            "keywords": [
-                "Skeleton",
-                "github",
-                "laravel",
-                "package",
-                "packager"
-            ],
-            "time": "2015-06-27 12:07:00"
         },
         {
             "name": "laracasts/utilities",
@@ -2382,12 +2163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prettus/l5-repository.git",
-                "reference": "7e7c4f3857de940f44779ad564e2448bc8096a4e"
+                "reference": "2a4517c55cf55d4aa79d5eb0663c16257ba3bebc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prettus/l5-repository/zipball/7e7c4f3857de940f44779ad564e2448bc8096a4e",
-                "reference": "7e7c4f3857de940f44779ad564e2448bc8096a4e",
+                "url": "https://api.github.com/repos/prettus/l5-repository/zipball/2a4517c55cf55d4aa79d5eb0663c16257ba3bebc",
+                "reference": "2a4517c55cf55d4aa79d5eb0663c16257ba3bebc",
                 "shasum": ""
             },
             "require": {
@@ -2434,7 +2215,7 @@
                 "model",
                 "repository"
             ],
-            "time": "2015-08-27 03:25:57"
+            "time": "2015-09-01 12:23:52"
         },
         {
             "name": "psr/http-message",
@@ -4117,6 +3898,177 @@
     ],
     "packages-dev": [
         {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "a8dfeff00eb84616a17fea7a4d72af35e750410f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a8dfeff00eb84616a17fea7a4d72af35e750410f",
+                "reference": "a8dfeff00eb84616a17fea7a4d72af35e750410f",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "~1.1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2015-07-04 20:09:24"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "97fe7210def29451ec74923b27e552238defd75a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/97fe7210def29451ec74923b27e552238defd75a",
+                "reference": "97fe7210def29451ec74923b27e552238defd75a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2015-08-15 19:37:21"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
+                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "PSR-7 message implementation",
+            "keywords": [
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2015-08-15 19:32:36"
+        },
+        {
             "name": "itsgoingd/clockwork",
             "version": "v1.9",
             "source": {
@@ -4160,6 +4112,54 @@
                 "profiling"
             ],
             "time": "2015-09-01 00:55:38"
+        },
+        {
+            "name": "jeroen-g/laravel-packager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Jeroen-G/laravel-packager.git",
+                "reference": "22167696e0b6d499095a76c3f39de03a693968e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Jeroen-G/laravel-packager/zipball/22167696e0b6d499095a76c3f39de03a693968e8",
+                "reference": "22167696e0b6d499095a76c3f39de03a693968e8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "illuminate/console": "~5",
+                "illuminate/filesystem": "~5",
+                "illuminate/support": "~5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JeroenG\\Packager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.1"
+            ],
+            "authors": [
+                {
+                    "name": "JeroenG",
+                    "email": "jeroengjeroeng@gmail.com",
+                    "homepage": "https://github.com/Jeroen-G"
+                }
+            ],
+            "description": "A cli tool for creating Laravel packages.",
+            "homepage": "https://github.com/Jeroen-G/laravel-packager",
+            "keywords": [
+                "Skeleton",
+                "github",
+                "laravel",
+                "package",
+                "packager"
+            ],
+            "time": "2015-06-27 12:07:00"
         },
         {
             "name": "laracasts/generators",
@@ -4325,7 +4325,6 @@
         "prettus/l5-repository": 20,
         "league/fractal": 20,
         "rap2hpoutre/laravel-log-viewer": 0,
-        "jeroen-g/laravel-packager": 20,
         "sofa/laravel-global-scope": 20,
         "fzaninotto/faker": 0,
         "mockery/mockery": 0,
@@ -4335,6 +4334,7 @@
         "stolz/laravel-html-tidy": 20,
         "lord/laroute": 20,
         "itsgoingd/clockwork": 0,
+        "jeroen-g/laravel-packager": 20,
         "hisorange/browser-detect": 0,
         "styde/html": 0,
         "laracasts/utilities": 20,
