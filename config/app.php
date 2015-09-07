@@ -150,6 +150,8 @@ return [
          */
         Caffeinated\Modules\ModulesServiceProvider::class,
 
+        SocialEngine\SnifferRules\ServiceProvider::class,
+
 
     ],
 

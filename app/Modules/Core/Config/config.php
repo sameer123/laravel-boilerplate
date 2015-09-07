@@ -25,6 +25,7 @@ return [
         Lord\Laroute\LarouteServiceProvider::class,
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
+        SocialEngine\SnifferRules\ServiceProvider::class,
     ],
     /*
     |--------------------------------------------------------------------------

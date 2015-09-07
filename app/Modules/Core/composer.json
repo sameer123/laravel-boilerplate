@@ -26,6 +26,7 @@
         "stolz/laravel-html-tidy": "dev-master",
         "lord/laroute": "dev-master",
         "itsgoingd/clockwork": "~1.8",
-        "jeroen-g/laravel-packager": "dev-master"
+        "jeroen-g/laravel-packager": "dev-master",
+        "socialengine/sniffer-rules": "dev-move-to-laravel-5.1"
     }
 }
