@@ -7,7 +7,7 @@
 # see the README
 
 PHPCS_BIN=./vendor/bin/phpcs
-PHPCS_CODING_STANDARD=SocialEngine
+PHPCS_CODING_STANDARD=PSR2
 PHPCS_IGNORE=
 TMP_STAGING=".tmp_staging"
 PHPCS_FILE_PATTERN="\.php$"
